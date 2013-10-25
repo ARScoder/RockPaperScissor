@@ -75,9 +75,9 @@ void compChoice(int& cChoice){
 void whoWin(int& uChoice, int& cChoice){
     do{
         if((uChoice == 1 && cChoice == 3) ||(uChoice == 2 && cChoice == 1) || (uChoice == 3 && cChoice == 2)){
-            cout << "\tGanaste! :)\n"; 
+            cout << "\tSellito\n"; 
         }
         else{
-            cout << "\tPerdiste! :(\n"; 
+            cout << "\tSellito\n"; 
         }
     }while(uChoice == cChoice);} 
